@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hello/hello"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "备忘录",
+        "iconPath": "static/images/index.png",
+        "selectedIconPath": "static/images/indexa.png"
+      },
+      {
+        "pagePath": "pages/hello/hello",
+        "text": "学习计划",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/usera.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

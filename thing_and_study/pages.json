@@ -1,0 +1,43 @@
+{
+	"pages": [
+	        {
+	            "path": "pages/index/index",
+	            "style": {
+	                "navigationBarTitleText": "备忘录"
+	            }
+	        },
+	        {
+	            "path" : "pages/hello/hello",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "学习计划",
+	                "enablePullDownRefresh": false
+	            }
+	        }
+	    ],
+	"tabBar": {
+	    "color": "#7a7e83",
+	    "selectedColor": "#ff0000",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+	        {
+	            "pagePath": "pages/index/index",
+	            "text": "备忘录",
+	            "iconPath": "static/images/index.png",
+	            "selectedIconPath": "static/images/indexa.png"
+	        },
+	        {
+	            "pagePath": "pages/hello/hello",
+	            "text": "学习计划",
+	            "iconPath": "static/images/user.png",
+	            "selectedIconPath": "static/images/usera.png"
+	        }
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
